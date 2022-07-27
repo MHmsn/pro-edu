@@ -1,4 +1,4 @@
-.item:after {
+.item:after{
     content:"";
     position:absolute;
     top:0;
