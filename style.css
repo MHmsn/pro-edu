@@ -10,3 +10,9 @@
   .fa-brands{
     font-size: xx-large;
   }
+  .caro-btn{
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 25px;
+    margin-top: 125px;
+  }

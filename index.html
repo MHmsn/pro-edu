@@ -32,16 +32,16 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Courses</a>
+                        <a class="nav-link" href="#courses">Courses</a>
                       </li>
                       <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Deals</a>
+                        <a class="nav-link" href="#courses">Deals</a>
                       </li>
                       <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">Success</a>
+                        <a class="nav-link" href="#success">Success</a>
                       </li>
                       <li class="nav-item mx-3">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#abt">About</a>
                       </li>
                       
                     </ul>
@@ -97,7 +97,7 @@
     </header>
     <main>
       <!-- courses section  -->
-      <section class="text-center mx-5">
+      <section class="text-center mx-5" id="courses">
         <h2>Discover Our Popular Courses</h2>
         <p>Choose a course from below and start your journey to digital learning</p>
         <div class="row g-3">
@@ -202,6 +202,7 @@
       <a href="" class="btn btn-primary mt-5">See More Courses</a>
       </section>
       <br>
+
       <!-- explore section  -->
       <section class="bg-light m-5">
         <div class="d-flex flex-column flex-lg-row flex-md-row w-100 h-100">
@@ -253,7 +254,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                  <form action="">
+                  <form action="" class="d-flex flex-column align-items-center text-center">
 
                     <div>Email:  <br><input type="email"></div>
                     <div>Password: <br><input type="password"></div>
@@ -271,7 +272,7 @@
       </section>
 
       <!-- successful students part -->
-      <section class="text-center m-5">
+      <section class="text-center m-5" id="success">
         <h2>Meet Our Successful Students</h2>
         <p>Meet some of our excellent and successful students who passed our courses</p>
         <div class="row g-4">
@@ -316,8 +317,147 @@
         <button class="btn btn-primary">View All</button>
       </section>
 
-      <!-- FAQ part -->
-      <section class="text-center d-flex flex-column align-items-center mx-5">
+      <!-- Feedback carousel part -->
+      <section class="text-center m-5 d-none d-lg-block">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row mx-4">
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between">
+                        <div><img src="images/comma.png" alt=""></div>
+                        <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                      </div>
+                      <p class="card-text mt-3">I completed this course and I must say that the way they progress is really something else. They always keep track of their student and student's progresses. they test what the students have learned and have conceptual sessions based on that. also if any student have any problems they also can have support sessions. overall, I would say this course was worth it!</p>
+                      <div class="d-flex">
+                        <img src="images/student/student-5.png" alt="">
+                        <div class="ms-4">
+                          <h6>Awlad Hossain</h6>
+                          <p class="text-muted">UI/UX Designer</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between">
+                        <div><img src="images/comma.png" alt=""></div>
+                        <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                      </div>
+                      <p class="card-text mt-3">I completed this course and I must say that the way they progress is really something else. They always keep track of their student and student's progresses. they test what the students have learned and have conceptual sessions based on that. also if any student have any problems they also can have support sessions. overall, I would say this course was worth it!</p>
+                      <div class="d-flex">
+                        <img src="images/student/student-6.png" alt="">
+                        <div class="ms-4">
+                          <h6>Jannatul Islam</h6>
+                          <p class="text-muted">Motion Designer</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row mx-4">
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between">
+                        <div><img src="images/comma.png" alt=""></div>
+                        <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                      </div>
+                      <p class="card-text mt-3">I completed this course and I must say that the way they progress is really something else. They always keep track of their student and student's progresses. they test what the students have learned and have conceptual sessions based on that. also if any student have any problems they also can have support sessions. overall, I would say this course was worth it!</p>
+                      <div class="d-flex">
+                        <img src="images/student/student-6.png" alt="">
+                        <div class="ms-4">
+                          <h6>Nishi Akter</h6>
+                          <p class="text-muted">Web Developer</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <div class="d-flex justify-content-between">
+                        <div><img src="images/comma.png" alt=""></div>
+                        <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                      </div>
+                      <p class="card-text mt-3">I completed this course and I must say that the way they progress is really something else. They always keep track of their student and student's progresses. they test what the students have learned and have conceptual sessions based on that. also if any student have any problems they also can have support sessions. overall, I would say this course was worth it!</p>
+                      <div class="d-flex">
+                        <img src="images/student/student-5.png" alt="">
+                        <div class="ms-4">
+                          <h6>Imran Hossain</h6>
+                          <p class="text-muted">Graphic Designer</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev bg-primary caro-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next bg-primary caro-btn" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- review non-carousel section  -->
+      <section class="text-center m-5 d-lg-none">
+        <div class="row">
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <div><img src="images/comma.png" alt=""></div>
+                  <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                </div>
+                <p class="card-text mt-3">I completed this course and I must say that the way they progress is really something else. They always keep track of their student and student's progresses. they test what the students have learned and have conceptual sessions based on that. also if any student have any problems they also can have support sessions. overall, I would say this course was worth it!</p>
+                <div class="d-flex">
+                  <img src="images/student/student-6.png" alt="">
+                  <div class="ms-4">
+                    <h6>Nishi Akter</h6>
+                    <p class="text-muted">Web Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="d-flex justify-content-between">
+                  <div><img src="images/comma.png" alt=""></div>
+                  <div><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                </div>
+                <p class="card-text mt-3">I completed this course and I must say that the way they progress is really something else. They always keep track of their student and student's progresses. they test what the students have learned and have conceptual sessions based on that. also if any student have any problems they also can have support sessions. overall, I would say this course was worth it!</p>
+                <div class="d-flex">
+                  <img src="images/student/student-5.png" alt="">
+                  <div class="ms-4">
+                    <h6>Imran Hossain</h6>
+                    <p class="text-muted">Graphic Designer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="" class="btn btn-primary mt-4">View All</a>
+      </section>
+
+      <!-- FAQ Accordion part -->
+      <section class="text-center d-flex flex-column align-items-center m-5">
         <h2>Frequently Asked Questions</h2>
         <p>Here you will get answers to some of the most frequently asked questions</p>
         <div class="accordion w-100" id="accordionExample" style="max-width: 900px;">
@@ -386,7 +526,7 @@
         </div>
       </section>
     </main>
-    <footer class="text-center text-white bg-black p-5">
+    <footer class="text-center text-white bg-black p-5" id="abt">
       <h3>Pro Edu</h3>
       <address>Office 41, Zawaya Buildin, Ghala Muscat, <br> Sultanate of Oman</address>
       <div><a href="" class="text-decoration-none text-white">Privacy Policy</a> | <a href="" class="text-decoration-none text-white">Terms of use</a></div>
