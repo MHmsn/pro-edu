@@ -316,6 +316,63 @@
         <button class="btn btn-primary">View All</button>
       </section>
 
+      <!-- FAQ part -->
+      <section class="text-center d-flex flex-column align-items-center mx-5">
+        <h2>Frequently Asked Questions</h2>
+        <p>Here you will get answers to some of the most frequently asked questions</p>
+        <div class="accordion w-100" id="accordionExample" style="max-width: 900px;">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                What is the difference between Flexbox and Grid?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Flexbox is a one dimensional layout system, Where Grid is a two dimensional layout system with rows and columns</strong> Usually flex is used when we have to edit an one dimensional layout, or not more than one row. with flexbox we can justify contents or align items. but when we have two dimensional layout, or more than one row, we can use grid to finish the layout much faster. 
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                What is the difference between Bootstrap and Tailwind?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Bootstrap is the most popular CSS framework and Tailwind is an utility first CSS framework.</strong> We use bootstrap for quickly building up a responsive website. but bootstrap lacks some specific customization features. For very specific customization we have tailwind. As it is an utility first CSS framework, we can use tailwind's highly customizable features to quickly setup custom user interfaces.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                What is a CSS Box Model?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>CSS box model is an imagined box that is wrapped around every HTML element.</strong> It consists of main content, padding, border, and margin. CSS box model is used when we modify an element's design and layout using the 4 aforementioned properties.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                What is a Semantic Tag?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Semantic Tags are meaningful tags that provide meaning instead of just presenting.</strong> Using semantic tags helps to make HTML file more understandable and simplifies it by differentiating different sections and layout of an webpage.  
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      
       <!-- trusted companies -->
       <section class="text-center m-5 d-none d-lg-block">
         <h2>Trusted by over 800+ companies</h2>
